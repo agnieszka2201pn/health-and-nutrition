@@ -2,7 +2,7 @@
 
 "LAST UPDATE: 28.10.21 16:05:53"
 
-"EXTRACTION DATE: 15.02.22 20:44:13"
+"EXTRACTION DATE: 17.02.22 20:42:02"
 
 "SOURCE OF DATA: Eurostat"
 
@@ -55,10 +55,13 @@
 "2019"
 
 "ISCED11"
-"All ISCED 2011 levels "
+"Less than primary, primary and lower secondary education (levels 0-2)"
+"Upper secondary and post-secondary non-tertiary education (levels 3 and 4)"
+"Tertiary education (levels 5-8)"
 
 "SEX"
-"Total"
+"Males"
+"Females"
 
 "AGE"
 "Total"
