@@ -16,6 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from results.views import ShowMenu, ShowPurpose, ShowBMIAnalysis
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('index/', ShowMenu.as_view()),
+    path('purpose/', ShowPurpose.as_view()),
+    path('bmi_analysis/', ShowBMIAnalysis.as_view()),
+
 ]
